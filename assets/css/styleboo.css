@@ -1,0 +1,28 @@
+#tableau {
+    width: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  #tableau tr:nth-child(even) {
+
+    background-color: #f2f2f2;
+  
+  }
+  #tableau tr:hover {
+    background-color: #ddd;
+  }
+
+  
+#tableau th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+  }
+  #tableau td,
+#tableau th {
+  border: 1px solid rgb(143, 128, 128);
+  padding: 8px;
+}

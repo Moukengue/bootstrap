@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="assets/css/style.css">-->
+    <!--<link rel="stylesheet" href="assets/css/styleboo.css">-->
+    <title>Tableau Bootstrap5</title>
+</head>
+
+<body class="container-fluid ">
+    <header id="header">
+        <img id="logo" src="assets/img/jarditou_photos/jarditou_logo2.png" alt="Logo" class="img-fluid" title="logotb" class="w-25">
+        <h3 class="nav justify-content-end display-3">Tout le jardin</h3>
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light"> <!--barre de navegation colorée en Gris-->
+        <a href="index.html" class="my-3">Jarditou.com</a><!--boosttrap spacing/espacement -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            
+            <ul class="navbar-nav list-unstyled mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active"><a class="nav-link" href="index.html">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="tableau.html">Tableau</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="votre promotion" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!--j'ai utilisé img-fluid pour la promotion-->
+    <img class="img-fluid img-thumbnail" id="promotion" src="assets/img/jarditou_photos/promotion.jpg" alt="Promotion"
+        title="Promotion" width="5000" height="500">
+    <section class="table-responsive">
+        <!--<h2>Tableau</h2>-->
+        <hr>
+        <!--j'ai utilisé classes contextuelles pour colorer le tableau, les lignes (tr)-->
+        <table id="tableau" class="table table-bordered">
+            <caption></caption>
+            <thead class="table-active">
+                <tr>
+                    <th scope="col">Photo</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">Catégorie</th>
+                    <th scope="col">Libellé</th>
+                    <th scope="col">Prix</th>
+                    <th scope="col">Couleur</th>
+
+                </tr>
+            </thead>
+            <tbody id="photo">
+
+                <tr class="table-warning">
+                    <td><img class="img_tb" src="assets/img/jarditou_photos/Aramis7.jpg" class="img-fluid" alt="Aramis7" title="Aramis"
+                            width="100" height="100"></td>
+                    <td>7</td>
+                    <td>Barbecues</td>
+                    <td>Aramis</td>
+                    <td>110.00 £ </td>
+                    <td>Bruns</td>
+                </tr>
+                <tr class="table-light">
+                    <td> <img class="img_tb" src="assets/img/jarditou_photos/athos8.jpg" class="img-fluid" alt="athos8" title="athos8"
+                            width="100" height="100"></td>
+                    <td>8</td>
+                    <td>Barbecues</td>
+                    <td>Althos</td>
+                    <td>249.99 £</td>
+                    <td>Noire</td>
+                </tr>
+                <tr class="table-warning">
+                    <td> <img class="img_tb" src="assets/img/jarditou_photos/11.jpg" class="img-fluid" alt="Clatronic" title="Clatronic"
+                            width="100" height="100"></td>
+                    <td>11</td>
+                    <td>Barbecues</td>
+                    <td>Clatronic</td>
+                    <td>135.90 £</td>
+                    <td>Chrome</td>
+
+                </tr>
+                <tr class="table-light">
+                    <td><img class="img_tb" src="assets/img/jarditou_photos/12.jpg" class="img-fluid" alt="Camping" title="Camping"
+                            width="100" height="100"></td>
+                    <td>12</td>
+                    <td>Barbecues</td>
+                    <td>Camping</td>
+                    <td>88.00 £</td>
+                    <td>Noire</td>
+                </tr>
+                <tr class="table-warning">
+                    <td> <img class="img_tb" src="assets/img/jarditou_photos/13.jpg" class="img-fluid" alt="Brouette" title="Brouette"
+                            width="100" height="100"></td>
+                    <td>13</td>
+                    <td>Brouette</td>
+                    <td>Green</td>
+                    <td>49.00 £</td>
+                    <td>Verte</td>
+                </tr>
+        </table>
+        <hr>
+        <footer class="text-white-50 bg-dark"><!--cette ligne est pour la coloration du fond et du texte-->
+            <div class="navbar navbar-expand-sm navbar-dark">
+                <button class="navbar-toggler btn btn-secondary" type="button" data-toggle="collapse" data-target="#footerTogglerDemo01"
+                    aria-controls="footerTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="footerTogglerDemo01">
+                    <ul class="navbar-nav list-unstyled">
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Mention légales</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Horaires</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Plan du site</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!--bootstrap js-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

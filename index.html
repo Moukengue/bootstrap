@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="assets/css/style.css" /> -->
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Accueil Bootstrap5</title>
+</head>
+
+<body class="container-fluid ">
+    <header id="header">
+        <img id="logo" src="assets/img/jarditou_photos/jarditou_logo2.png" alt="Logo" title="logotb" class="w-25" h-10>
+        <br>
+        <h3 class="nav justify-content-end display-3">Tout le jardin</h3>
+    </header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light"> <!--barre de navegation colorée en Gris-->
+        <a href="index.html" class="my-3">Jarditou.com</a><!--boosttrap spacing/espacement -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            
+            <ul class="navbar-nav list-unstyled mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active"><a class="nav-link" href="index.html">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="tableau.html">Tableau</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="votre promotion" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <img class="img-fluid img-thumbnail" id="promotion" src="assets/img/jarditou_photos/promotion.jpg" alt="Promotion"
+        title="Promotion" width="5000" height="500">
+
+    <div class="row">
+        <section class="col-md-8 col-sm-12">
+            <!--<h2>Accueil</h2>-->
+            <hr>
+
+            <article class="m-3">
+                <h2>L'entreprise</h2>
+
+                <p id="para1">
+                    Notre entreprise familiale met tout son savoir-faire à votre
+                    disposition dans le domaine du jardin et du paysagisme. </p>
+                <p>Créée il y a 70 ans, notre entreprise vend fleurs, arbustes, matériel à main et motorisés.</p>
+
+                <p>Implantés à Amiens, nous intervenons dans tout le
+                    département de la Somme : Albert, Doullens, Péronne, Abbeville, Corbie</p>
+
+
+
+            </article>
+            <article class="m-3">
+                <h2>Qualité</h2>
+                <p id="para2">
+                    Nous mettons à votre disposition un service personnalisé, avec 1 seul
+                    interlocuteur durant tout votre projet.
+                    Vous serez séduit par notre expertise, nos compétences et notre
+                    sérieux.
+                </p>
+
+
+                <h2>Devis gratuit</h2>
+                <p>
+                    Vous pouvez bien sûr contacter pour de plus amples informations ou
+                    pour une demande d’intervention. Vous souhaitez un devis ? Nous vous
+                    le réalisons gratuitement. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+                    laborum
+                    non temporibus molestias perspiciatis sint voluptatum, praesentium quas pariatur voluptatem
+                    laboriosam harum eveniet. Labore iusto vitae cupiditate laudantium consectetur, expedita nostrum
+                    iure.
+
+                </p>
+            </article>
+
+        </section>
+        <aside class="col-md-4  col-sm-12 bg-warning " id="aside">
+            <p>Colonne de droite</p>
+        </aside>
+    </div>
+
+    <footer class="text-white-50 bg-dark"><!--cette ligne est pour la coloration du fond et du texte-->
+        <div class="navbar navbar-expand-sm navbar-dark">
+            <button class="navbar-toggler btn btn-secondary" type="button" data-toggle="collapse" data-target="#footerTogglerDemo01"
+                aria-controls="footerTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="footerTogglerDemo01">
+                <ul class="navbar-nav list-unstyled">
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Mention légales</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Horaires</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Plan du site</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
